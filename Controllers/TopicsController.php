@@ -11,6 +11,14 @@ class TopicsController extends AbstractController
 
     use InputFilter;
 
+    /**
+     * @api {get} /topics/list/ Request Topics and related articles
+     * @apiName ListTopics
+     * @apiGroup Topics
+     *
+     * @example refer to Tests/http/topics/list.http file
+     * @apiSuccess {JSON} the topics and related articles.
+     */
     public function listAction()
     {
         header("Access-Control-Allow-Origin: *");
@@ -35,6 +43,15 @@ class TopicsController extends AbstractController
         }
     }
 
+    /**
+     * @api {get} /topics/show/:id Show a topic
+     * @apiName ShowTopic
+     * @apiGroup Topics
+     *
+     * @apiParam {Number} id Topic unique ID.
+     * @example refer to Tests/http/topics/show.http file
+     * @apiSuccess {JSON} the requested topic to show.
+     */
     public function showAction()
     {
         header("Access-Control-Allow-Origin: *");
@@ -62,6 +79,15 @@ class TopicsController extends AbstractController
         }
     }
 
+    /**
+     * @api {post} /topics/create Creates a new topic
+     * @apiName CreateTopic
+     * @apiGroup Topics
+     *
+     * @apiParam {JSON} post_request_data.
+     * @example refer to Tests/http/topics/create.http file
+     * @apiSuccess {JSON} a message of success or failure.
+     */
     public function createAction()
     {
         header("Access-Control-Allow-Origin: *");
@@ -91,6 +117,15 @@ class TopicsController extends AbstractController
         }
     }
 
+    /**
+     * @api {post} /topics/delete Deletes a topic
+     * @apiName DeleteTopic
+     * @apiGroup Topics
+     *
+     * @apiParam {JSON} post_request_data.
+     * @example refer to Tests/http/topics/delete.http file
+     * @apiSuccess {JSON} a message of success or failure.
+     */
     public function deleteAction()
     {
         header("Access-Control-Allow-Origin: *");

@@ -13,6 +13,15 @@ class ArticlesController extends AbstractController
 
     use InputFilter;
 
+    /**
+     * @api {get} /topics/list/:id Show a list of articles related to a specific topic
+     * @apiName ListArticles
+     * @apiGroup Articles
+     *
+     * @apiParam {Number} id Topic unique ID.
+     * @example refer to Tests/http/articles/list.http file
+     * @apiSuccess {JSON} the list of articles related toa specific topic.
+     */
     public function listAction()
     {
         header("Access-Control-Allow-Origin: *");
@@ -45,6 +54,15 @@ class ArticlesController extends AbstractController
         }
     }
 
+    /**
+     * @api {get} /topics/show/:id Show an article
+     * @apiName ShowArticle
+     * @apiGroup Articles
+     *
+     * @apiParam {Number} id Article unique ID.
+     * @example refer to Tests/http/articles/show.http file
+     * @apiSuccess {JSON} the requested article to show.
+     */
     public function showAction()
     {
         // Set appropriate headers
@@ -73,6 +91,15 @@ class ArticlesController extends AbstractController
         }
     }
 
+    /**
+     * @api {post} /topics/create Creates a new article
+     * @apiName CreateArticle
+     * @apiGroup Articles
+     *
+     * @apiParam {JSON} post_request_data.
+     * @example refer to Tests/http/articles/create.http file
+     * @apiSuccess {JSON} a message of success or failure.
+     */
     public function createAction()
     {
         // Set appropriate headers
@@ -119,6 +146,15 @@ class ArticlesController extends AbstractController
         }
     }
 
+    /**
+     * @api {post} /topics/delete Deletes an article
+     * @apiName DeleteArticle
+     * @apiGroup Articles
+     *
+     * @apiParam {JSON} post_request_data.
+     * @example refer to Tests/http/articles/delete.http file
+     * @apiSuccess {JSON} a message of success or failure.
+     */
     public function deleteAction()
     {
         // Set appropriate headers

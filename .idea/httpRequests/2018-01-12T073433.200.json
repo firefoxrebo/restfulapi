@@ -1,0 +1,86 @@
+{
+    "0": {
+        "ArticleId": "1",
+        "TopicId": "1",
+        "AuthorId": "1",
+        "ArticleTitle": "How to shape your body",
+        "ArticleContent": "This is the content"
+    },
+    "1": {
+        "ArticleId": "2",
+        "TopicId": "1",
+        "AuthorId": "1",
+        "ArticleTitle": "How to shape your body: Part2",
+        "ArticleContent": "This is the content"
+    },
+    "2": {
+        "ArticleId": "3",
+        "TopicId": "1",
+        "AuthorId": "1",
+        "ArticleTitle": "How to shape your body: Part3",
+        "ArticleContent": "This is the content"
+    },
+    "3": {
+        "ArticleId": "4",
+        "TopicId": "2",
+        "AuthorId": "2",
+        "ArticleTitle": "Intel is releasing its Core i9 Soon",
+        "ArticleContent": "This is the content"
+    },
+    "4": {
+        "ArticleId": "5",
+        "TopicId": "2",
+        "AuthorId": "2",
+        "ArticleTitle": "Intel is releasing its Core i9 Soon: Part2",
+        "ArticleContent": "This is the content"
+    },
+    "5": {
+        "ArticleId": "6",
+        "TopicId": "2",
+        "AuthorId": "2",
+        "ArticleTitle": "Intel is releasing its Core i9 Soon: Part3",
+        "ArticleContent": "This is the content"
+    },
+    "6": {
+        "ArticleId": "7",
+        "TopicId": "3",
+        "AuthorId": "3",
+        "ArticleTitle": "Zidan is announcing new deals this winter",
+        "ArticleContent": "This is the content"
+    },
+    "7": {
+        "ArticleId": "8",
+        "TopicId": "3",
+        "AuthorId": "3",
+        "ArticleTitle": "Zidan is announcing new deals this winter: Part2",
+        "ArticleContent": "This is the content"
+    },
+    "8": {
+        "ArticleId": "9",
+        "TopicId": "3",
+        "AuthorId": "3",
+        "ArticleTitle": "Zidan is announcing new deals this winter: Part3",
+        "ArticleContent": "This is the content"
+    },
+    "9": {
+        "ArticleId": "10",
+        "TopicId": "4",
+        "AuthorId": "4",
+        "ArticleTitle": "The ancient ages of the world",
+        "ArticleContent": "This is the content"
+    },
+    "10": {
+        "ArticleId": "11",
+        "TopicId": "4",
+        "AuthorId": "4",
+        "ArticleTitle": "The ancient ages of the world: Part2",
+        "ArticleContent": "This is the content"
+    },
+    "11": {
+        "ArticleId": "12",
+        "TopicId": "4",
+        "AuthorId": "4",
+        "ArticleTitle": "The ancient ages of the world: Part3",
+        "ArticleContent": "This is the content"
+    }
+}

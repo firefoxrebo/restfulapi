@@ -1,0 +1,23 @@
+{
+    "0": {
+        "ArticleId": "1",
+        "TopicId": "1",
+        "AuthorId": "1",
+        "ArticleTitle": "How to shape your body",
+        "ArticleContent": "This is the content"
+    },
+    "1": {
+        "ArticleId": "2",
+        "TopicId": "1",
+        "AuthorId": "1",
+        "ArticleTitle": "How to shape your body: Part2",
+        "ArticleContent": "This is the content"
+    },
+    "2": {
+        "ArticleId": "3",
+        "TopicId": "1",
+        "AuthorId": "1",
+        "ArticleTitle": "How to shape your body: Part3",
+        "ArticleContent": "This is the content"
+    }
+}

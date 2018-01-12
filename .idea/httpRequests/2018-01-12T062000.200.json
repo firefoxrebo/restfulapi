@@ -1,0 +1,110 @@
+{
+    "0": {
+        "TopicId": "1",
+        "TopicTitle": "Health Care and Safety",
+        "Articles": [
+            {
+                "ArticleId": "1",
+                "AuthorId": "1",
+                "ArticleTitle": "How to shape your body",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Mohammed Yehia"
+            },
+            {
+                "ArticleId": "2",
+                "AuthorId": "1",
+                "ArticleTitle": "How to shape your body: Part2",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Mohammed Yehia"
+            },
+            {
+                "ArticleId": "3",
+                "AuthorId": "1",
+                "ArticleTitle": "How to shape your body: Part3",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Mohammed Yehia"
+            }
+        ]
+    },
+    "1": {
+        "TopicId": "2",
+        "TopicTitle": "Technology and Science",
+        "Articles": [
+            {
+                "ArticleId": "4",
+                "AuthorId": "2",
+                "ArticleTitle": "Intel is releasing its Core i9 Soon",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Yehia Mohammed"
+            },
+            {
+                "ArticleId": "5",
+                "AuthorId": "2",
+                "ArticleTitle": "Intel is releasing its Core i9 Soon: Part2",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Yehia Mohammed"
+            },
+            {
+                "ArticleId": "6",
+                "AuthorId": "2",
+                "ArticleTitle": "Intel is releasing its Core i9 Soon: Part3",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Yehia Mohammed"
+            }
+        ]
+    },
+    "2": {
+        "TopicId": "3",
+        "TopicTitle": "Sports",
+        "Articles": [
+            {
+                "ArticleId": "7",
+                "AuthorId": "3",
+                "ArticleTitle": "Zidan is announcing new deals this winter",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Michael Page"
+            },
+            {
+                "ArticleId": "8",
+                "AuthorId": "3",
+                "ArticleTitle": "Zidan is announcing new deals this winter: Part2",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Michael Page"
+            },
+            {
+                "ArticleId": "9",
+                "AuthorId": "3",
+                "ArticleTitle": "Zidan is announcing new deals this winter: Part3",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Michael Page"
+            }
+        ]
+    },
+    "3": {
+        "TopicId": "4",
+        "TopicTitle": "History of the World",
+        "Articles": [
+            {
+                "ArticleId": "10",
+                "AuthorId": "4",
+                "ArticleTitle": "The ancient ages of the world",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Steven Zorasky"
+            },
+            {
+                "ArticleId": "11",
+                "AuthorId": "4",
+                "ArticleTitle": "The ancient ages of the world: Part2",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Steven Zorasky"
+            },
+            {
+                "ArticleId": "12",
+                "AuthorId": "4",
+                "ArticleTitle": "The ancient ages of the world: Part3",
+                "ArticleContent": "This is the content",
+                "AuthorName": "Steven Zorasky"
+            }
+        ]
+    }
+}

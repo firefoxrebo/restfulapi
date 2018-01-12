@@ -6,5 +6,5 @@ Please follow the steps below to run the project
 2. Import the restapi.sql file to your database server.
 3. Open Config/main.php and modify the Database credentials.
 
-The below YouTube video is explaining the task.
-
+The below Vimeo video is explaining the task.
+https://vimeo.com/250876768
